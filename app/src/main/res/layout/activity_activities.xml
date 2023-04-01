@@ -1,0 +1,367 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activities">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="10dp">
+
+        <FrameLayout
+            android:id="@+id/activity1Frame"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="5dp"
+            android:background="@drawable/roundcornerteal200"
+            android:padding="10dp">
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/roundcornerteal700">
+
+            </FrameLayout>
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="25dp"
+                android:layout_marginBottom="5dp"
+                android:background="#FFFFFF">
+
+            </FrameLayout>
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="180dp"
+                android:layout_marginTop="50dp"
+                android:background="#FFFFFF">
+
+            </FrameLayout>
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginRight="235dp"
+                android:layout_marginBottom="70dp"
+                android:background="@drawable/roundcornerteal700">>
+
+            </FrameLayout>
+
+            <TextView
+                android:id="@+id/tvDifficulty"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="13dp"
+                android:layout_marginTop="28dp"
+                android:text="EASY"
+                android:textColor="#FFFFFF"
+                android:textSize="24sp" />
+
+            <TextView
+                android:id="@+id/textView56"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="13dp"
+                android:layout_marginTop="15dp"
+                android:text="Difficulty"
+                android:textColor="@color/sepia" />
+
+            <TextView
+                android:id="@+id/tvActivity"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:paddingRight="6dp"
+                android:text="Activity Number 1"
+                android:textAlignment="textEnd"
+                android:textSize="28sp" />
+
+            <TextView
+                android:id="@+id/tvTitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="15dp"
+                android:foregroundGravity="center"
+                android:gravity="center"
+                android:text='"Print Out"'
+                android:textColor="#000000"
+                android:textSize="24sp" />
+
+            <TextView
+                android:id="@+id/act1Complete"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingEnd="10dp"
+                android:text="Complete!"
+                android:textAlignment="textEnd"
+                android:textColor="@color/neonGreen"
+                android:visibility="invisible" />
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="230dp"
+                android:layout_marginTop="110dp"
+                android:background="@drawable/newteal700corner">
+
+                <TextView
+                    android:id="@+id/tvScore1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="bottom|right"
+                    android:foregroundGravity="right"
+                    android:gravity="right"
+                    android:text="Max Score:\n50"
+                    android:textColor="#FFFFFF" />
+            </FrameLayout>
+
+        </FrameLayout>
+
+        <FrameLayout
+            android:id="@+id/activity2Frame"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="5dp"
+            android:background="@drawable/roundcornerteal200"
+            android:padding="10dp">
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/roundcornerteal700">
+
+            </FrameLayout>
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="25dp"
+                android:layout_marginBottom="5dp"
+                android:background="#FFFFFF">
+
+            </FrameLayout>
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="180dp"
+                android:layout_marginTop="50dp"
+                android:background="#FFFFFF">
+
+            </FrameLayout>
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginRight="235dp"
+                android:layout_marginBottom="70dp"
+                android:background="@drawable/roundcornerteal700">>
+
+            </FrameLayout>
+
+            <TextView
+                android:id="@+id/tvDifficulty"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="13dp"
+                android:layout_marginTop="28dp"
+                android:text="MEDIUM"
+                android:textColor="#FFFFFF"
+                android:textSize="24sp" />
+
+            <TextView
+                android:id="@+id/textView56"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="13dp"
+                android:layout_marginTop="15dp"
+                android:text="Difficulty"
+                android:textColor="@color/sepia" />
+
+            <TextView
+                android:id="@+id/tvActivity"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:paddingRight="6dp"
+                android:text="Activity Number 2"
+                android:textAlignment="textEnd"
+                android:textSize="28sp" />
+
+            <TextView
+                android:id="@+id/tvTitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="15dp"
+                android:foregroundGravity="center"
+                android:gravity="center"
+                android:text='"Math Operations"'
+                android:textColor="#000000"
+                android:textSize="24sp" />
+
+            <TextView
+                android:id="@+id/act2Complete"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingEnd="10dp"
+                android:text="Complete!"
+                android:textAlignment="textEnd"
+                android:textColor="@color/neonGreen"
+                android:visibility="invisible" />
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="230dp"
+                android:layout_marginTop="110dp"
+                android:background="@drawable/newteal700corner">
+
+                <TextView
+                    android:id="@+id/tvScore2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="bottom|right"
+                    android:foregroundGravity="right"
+                    android:gravity="right"
+                    android:text="Max Score:\n100"
+                    android:textColor="#FFFFFF" />
+            </FrameLayout>
+
+        </FrameLayout>
+
+        <FrameLayout
+            android:id="@+id/activity3Frame"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="5dp"
+            android:background="@drawable/roundcornerteal200"
+            android:padding="10dp">
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/roundcornerteal700">
+
+            </FrameLayout>
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="25dp"
+                android:layout_marginBottom="5dp"
+                android:background="#FFFFFF">
+
+            </FrameLayout>
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="180dp"
+                android:layout_marginTop="50dp"
+                android:background="#FFFFFF">
+
+            </FrameLayout>
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginRight="235dp"
+                android:layout_marginBottom="70dp"
+                android:background="@drawable/roundcornerteal700">>
+
+            </FrameLayout>
+
+            <TextView
+                android:id="@+id/tvDifficulty"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="13dp"
+                android:layout_marginTop="28dp"
+                android:text="HARD"
+                android:textColor="#FFFFFF"
+                android:textSize="24sp" />
+
+            <TextView
+                android:id="@+id/textView56"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="13dp"
+                android:layout_marginTop="15dp"
+                android:text="Difficulty"
+                android:textColor="@color/sepia" />
+
+            <TextView
+                android:id="@+id/tvActivity"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:paddingRight="6dp"
+                android:text="Activity Number 3"
+                android:textAlignment="textEnd"
+                android:textSize="28sp" />
+
+            <TextView
+                android:id="@+id/tvTitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="15dp"
+                android:foregroundGravity="center"
+                android:gravity="center"
+                android:text='"Loops"'
+                android:textColor="#000000"
+                android:textSize="24sp" />
+
+            <TextView
+                android:id="@+id/act3Complete"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingEnd="10dp"
+                android:text="Complete!"
+                android:textAlignment="textEnd"
+                android:textColor="@color/neonGreen"
+                android:visibility="invisible" />
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="230dp"
+                android:layout_marginTop="110dp"
+                android:background="@drawable/newteal700corner">
+
+                <TextView
+                    android:id="@+id/tvScore3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="bottom|right"
+                    android:foregroundGravity="right"
+                    android:gravity="right"
+                    android:text="Max Score:\n200"
+                    android:textColor="#FFFFFF" />
+            </FrameLayout>
+
+        </FrameLayout>
+    </LinearLayout>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/activitiesRecyclerview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" >
+
+    </androidx.recyclerview.widget.RecyclerView>
+</androidx.appcompat.widget.LinearLayoutCompat>

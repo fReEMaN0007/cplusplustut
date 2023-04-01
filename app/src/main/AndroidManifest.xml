@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.group2elearningapp.cplusplus"
+    tools:ignore="ExtraText">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:networkSecurityConfig="@xml/network_security_config"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Cplusplustutorial">
+        <activity android:name=".StudentFullInfo"></activity>
+        <activity android:name=".Activity_3_3" />
+        <activity android:name=".Activity_3_2" />
+        <activity android:name=".Activity_3_1" />
+        <activity android:name=".Activity_2_3" />
+        <activity android:name=".Activity_2_2" />
+        <activity android:name=".Activity_2_1" />
+        <activity android:name=".Activity_1_3" />
+        <activity android:name=".Activity_1_2" />
+        <activity android:name=".Activity_1_1" />
+        <activity android:name=".Activities" />
+        <activity android:name=".MainActivity2" />
+        <activity android:name=".teacherSearchResult" />
+        <activity android:name=".testingmuna" />
+        <activity android:name=".Achivements" />
+        <activity android:name=".Lesson_8_2" />
+        <activity android:name=".Lesson_8_1" />
+        <activity android:name=".Lesson8" />
+        <activity android:name=".Lesson_7_4" />
+        <activity android:name=".Lesson_7_3" />
+        <activity android:name=".Lesson_7_2" />
+        <activity android:name=".Lesson_7_1" />
+        <activity android:name=".Lesson7" />
+        <activity android:name=".Lesson_6_4" />
+        <activity android:name=".Lesson_6_3" />
+        <activity android:name=".Lesson_6_2" />
+        <activity android:name=".Lesson_6_1" />
+        <activity android:name=".Lesson6" />
+        <activity android:name=".Lesson_5_4" />
+        <activity android:name=".Lesson_5_3" />
+        <activity android:name=".Lesson_5_2" />
+        <activity android:name=".Lesson_5_1" />
+        <activity android:name=".Lesson5" />
+        <activity android:name=".Lesson_4_1" />
+        <activity android:name=".Lesson4" />
+        <activity android:name=".Finals" />
+        <activity android:name=".PreFinal" />
+        <activity android:name=".Midterm" />
+        <activity android:name=".Lesson_2_3" />
+        <activity android:name=".Lesson3" />
+        <activity android:name=".Lesson_2_2" />
+        <activity android:name=".Lesson_2_1" />
+        <activity android:name=".Lesson2" />
+        <activity android:name=".Lesson_1_3" />
+        <activity android:name=".Lesson_1_2"
+            android:parentActivityName=".StudentDashBoard"/>
+        <activity android:name=".Prelim"
+            android:parentActivityName=".StudentDashBoard" />
+
+        <activity android:name=".TeacherDashboard" />
+        <activity android:name=".StudentDashBoard" />
+        <activity
+            android:name=".TecherNewAccount"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".StudentNewAccount"
+            android:parentActivityName=".MainActivity" />
+        <activity android:name=".Lesson1" />
+        <activity android:name=".Lesson_1_1" />
+        <activity
+            android:name=".LogIn"
+            android:parentActivityName=".MainActivity" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

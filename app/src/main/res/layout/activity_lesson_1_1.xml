@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="5dp"
+    tools:context=".Lesson_1_1">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/sepia"
+        tools:layout_editor_absoluteX="167dp"
+        tools:layout_editor_absoluteY="336dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tvProgressPrelimStudentDashBoard"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Lesson 1.1"
+                android:textColor="@color/black"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView22"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Hello World using C++"
+                android:textColor="@color/black"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/aaaa"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="      Just to give you a little excitement about C++ programming, I'm going to give you a small conventional C++ Hello World program, You can try it using Demo link C++ is a superset of C programming with additional implementation of object-oriented concepts. "
+                android:textColor="@color/black" />
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/haha" />
+
+            <TextView
+                android:id="@+id/textView24"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="      There are many C++ compilers available which you can use to compile and run above mentioned program:"
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/textView25"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="40dp"
+                android:text='●	Apple C++. Xcode \n●	Bloodshed Dev-C++ \n●	Clang C++ \n●	Cygwin (GNU C++) \n●	Mentor Graphics \n●	MINGW - "Minimalist GNU for Windows" \n●	GNU CC source \n●	IBM C++ \n●	Intel C++ \n●	Microsoft Visual C++ \n●	Oracle C++ \n●	HP C++ '
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/textView26"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="      It is really impossible to give a complete list of all the available compilers. The C++ world is just too large and too much new is happening."
+                android:textColor="@color/black" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/seachButton"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="2.5dp"
+                    android:layout_marginRight="2.5dp"
+                    android:layout_weight="2"
+                    android:text="PREVIOUS" />
+
+                <TextView
+                    android:id="@+id/textView13"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0"
+                    android:text="1/10" />
+
+                <Button
+                    android:id="@+id/a12"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="2.5dp"
+                    android:layout_marginRight="2.5dp"
+                    android:layout_weight="2"
+                    android:text="NEXT" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</androidx.appcompat.widget.LinearLayoutCompat>
